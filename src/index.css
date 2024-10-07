@@ -5,3 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
+.fixed {
+  position: fixed;
+  top: 0; /* ensure it sticks to the top */
+  left: 0;
+  right: 0;
+  z-index: 10; /* make sure it stays above the content */
+}
